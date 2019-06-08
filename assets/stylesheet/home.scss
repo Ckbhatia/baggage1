@@ -1,0 +1,116 @@
+.hero-section{
+    background: $primary_color;
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+}
+.site-heading{
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: $text_color;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    span{
+        display: block;
+        color: #fff;
+    }
+}
+.hero-info{
+    padding: 5rem 0;
+}
+
+// Feature Section
+.features-section{
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.feature{
+    padding: 4rem 2rem;
+    text-align: center;
+}
+// banner2-section
+.banner2-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: $secondary_background;
+}
+.banner2-img-container{
+    background: url('../media/banner1.jpg') no-repeat center center;
+    background-size: cover;
+    height: 30rem;
+}
+.banner2-description{
+    text-align: center;
+    padding: 4rem 2rem;
+}
+// shop-section
+.buy-section-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    .collection-img-container{
+        height: 30rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .collection-img1{
+        background-image: url('../media/c1.jpg');
+    }
+    .collection-img2{
+        background-image: url('../media/c2.jpg');
+    }
+    .collection-description{
+        text-align: center;
+        padding: 4rem 2rem;
+    }
+}
+// offer-section
+.offer-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.offer-banner{
+    height: 28rem;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 4rem 3rem;
+}
+.offer-banner1{
+    background-image: url('../media/ab1.jpg');
+}
+.offer-banner2{
+    background-image: url('../media/ab2.jpg');
+}
+.offer-para{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 300;
+}
+// Trending Section
+.trending-section{
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+    }
+}
+.trending-description{
+    text-align: center;
+    padding: 1rem 1rem;
+}
+.trending-product-container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+.trending-product-img{
+    width: 100%;
+    height: auto;
+}
+//dds

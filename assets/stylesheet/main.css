@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Hind", sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.col-2 {
+  grid-column: span 2;
+}
+
+.col-5 {
+  grid-column: span 5;
+}
+
+.col-7 {
+  grid-column: span 7;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.btn {
+  display: inline-block;
+  margin: 1rem 0;
+  font-size: 1rem;
+  font-weight: 500;
+  background: #ec1c24;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.8rem 3rem;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: background ease 0.2s;
+  -webkit-transition: background ease 0.2s;
+  -moz-transition: background ease 0.2s;
+  -ms-transition: background ease 0.2s;
+  -o-transition: background ease 0.2s;
+}
+
+.btn:hover {
+  background: rgba(236, 28, 36, 0.9);
+}
+
+p {
+  line-height: 1.5;
+}
+
+.section-padding {
+  padding: 7rem 0 5rem 0;
+}
+
+.section-heading {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.small-heading {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+  color: #4c4d4e;
+  margin-bottom: 1rem;
+}
+
+.small-para {
+  font-weight: 400;
+  color: #777777;
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  line-height: 2;
+}
+
+.flex-column-center-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flex-column-center-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-bottom-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.flex-bottom-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.hero-section {
+  background: #74d2e7;
+}
+.hero-section .wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.site-heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #333333;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+.site-heading span {
+  display: block;
+  color: #fff;
+}
+
+.hero-info {
+  padding: 5rem 0;
+}
+
+.features-section .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.feature {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.banner2-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: #f7f7f7;
+}
+
+.banner2-img-container {
+  background: url("../media/banner1.jpg") no-repeat center center;
+  background-size: cover;
+  height: 30rem;
+}
+
+.banner2-description {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.buy-section-collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.buy-section-collection .collection-img-container {
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.buy-section-collection .collection-img1 {
+  background-image: url("../media/c1.jpg");
+}
+.buy-section-collection .collection-img2 {
+  background-image: url("../media/c2.jpg");
+}
+.buy-section-collection .collection-description {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.offer-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.offer-banner {
+  height: 28rem;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 4rem 3rem;
+}
+
+.offer-banner1 {
+  background-image: url("../media/ab1.jpg");
+}
+
+.offer-banner2 {
+  background-image: url("../media/ab2.jpg");
+}
+
+.offer-para {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+.trending-section .wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.trending-description {
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+.trending-product-container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.trending-product-img {
+  width: 100%;
+  height: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
