@@ -1,353 +1,79 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+/*
+Error: Undefined variable: "$primary".
+        on line 10 of header.scss
+        from line 7 of main.scss
+
+5: @import "home";
+6: @import "about";
+7: @import "header";
+
+Backtrace:
+header.scss:10
+main.scss:7
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:320:in `block in watch'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
+C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
-
-body {
-  line-height: 1;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-blockquote, q {
-  quotes: none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: "";
-  content: none;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-body {
-  font-family: "Hind", sans-serif;
-  font-size: 16px;
-  color: #333333;
-}
-
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-.wrapper {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1rem;
-}
-
-.col-2 {
-  grid-column: span 2;
-}
-
-.col-5 {
-  grid-column: span 5;
-}
-
-.col-7 {
-  grid-column: span 7;
-}
-
-.img-responsive {
-  max-width: 100%;
-  height: auto;
-}
-
-.btn {
-  display: inline-block;
-  margin: 1rem 0;
-  font-size: 1rem;
-  font-weight: 500;
-  background: #ec1c24;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #ffffff;
-  padding: 0.8rem 3rem;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
-  transition: background ease 0.2s;
-  -webkit-transition: background ease 0.2s;
-  -moz-transition: background ease 0.2s;
-  -ms-transition: background ease 0.2s;
-  -o-transition: background ease 0.2s;
-}
-
-.btn:hover {
-  background: rgba(236, 28, 36, 0.9);
-}
-
-p {
-  line-height: 1.5;
-}
-
-.section-padding {
-  padding: 7rem 0 5rem 0;
-}
-
-.section-heading {
-  font-size: 2.5rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem;
-  text-align: center;
-  margin-bottom: 3rem;
-}
-
-.small-heading {
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 0.05rem;
-  color: #4c4d4e;
-  margin-bottom: 1rem;
-}
-
-.small-para {
-  font-weight: 400;
-  color: #777777;
-  font-size: 0.9rem;
-  letter-spacing: 0.05rem;
-  line-height: 2;
-}
-
-.flex-column-center-start {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.flex-column-center-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-bottom-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-}
-
-.flex-bottom-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
-.hero-section {
-  background: #74d2e7;
-}
-.hero-section .wrapper {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
-.site-heading {
-  font-size: 2.5rem;
-  font-weight: 500;
-  line-height: 1.2;
-  color: #333333;
-  text-transform: uppercase;
-  margin-bottom: 1.5rem;
-}
-.site-heading span {
-  display: block;
-  color: #fff;
-}
-
-.hero-info {
-  padding: 5rem 0;
-}
-
-.features-section .wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.feature {
-  padding: 4rem 2rem;
-  text-align: center;
-}
-
-.banner2-section {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  background: #f7f7f7;
-}
-
-.banner2-img-container {
-  background: url("../media/banner1.jpg") no-repeat center center;
-  background-size: cover;
-  height: 30rem;
-}
-
-.banner2-description {
-  text-align: center;
-  padding: 4rem 2rem;
-}
-
-.buy-section-collection {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-.buy-section-collection .collection-img-container {
-  height: 30rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-.buy-section-collection .collection-img1 {
-  background-image: url("../media/c1.jpg");
-}
-.buy-section-collection .collection-img2 {
-  background-image: url("../media/c2.jpg");
-}
-.buy-section-collection .collection-description {
-  text-align: center;
-  padding: 4rem 2rem;
-}
-
-.offer-section {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.offer-banner {
-  height: 28rem;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 4rem 3rem;
-}
-
-.offer-banner1 {
-  background-image: url("../media/ab1.jpg");
-}
-
-.offer-banner2 {
-  background-image: url("../media/ab2.jpg");
-}
-
-.offer-para {
-  font-size: 2rem;
-  color: #fff;
-  font-weight: 300;
-}
-
-.trending-section .wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 1rem;
-}
-
-.trending-description {
-  text-align: center;
-  padding: 1rem 1rem;
-}
-
-.trending-product-container {
-  display: grid;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.trending-product-img {
-  width: 100%;
-  height: auto;
-}
-
-@media all and (max-width: 768px) {
-  .features-section .wrapper {
-    grid-template-columns: 1fr;
-  }
-
-  .banner2-section {
-    grid-template-columns: 1fr;
-  }
-
-  .buy-section-collection {
-    grid-template-columns: 1fr;
-  }
-
-  .offer-section {
-    grid-template-columns: 1fr;
-  }
-
-  .trending-product-container {
-    grid-template-columns: 1fr;
-  }
-
-  .trending-section .wrapper {
-    grid-template-columns: 1fr;
-  }
-}
-.about-us-section .wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.about-heading {
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  color: #4c4d4e;
-  margin-bottom: 1.5rem;
-  letter-spacing: 0.05rem;
-}
-
-.baggage-img {
-  width: 100%;
-  padding: 3rem 1rem 0 1rem;
-}
-
-@media all and (max-width: 768px) {
-  .about-us-section > .wrapper {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .about-us-section .flex-column-center-start {
-    align-items: center;
-  }
-}
-
-/*# sourceMappingURL=main.css.map */
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$primary\".\A         on line 10 of header.scss\A         from line 7 of main.scss\A \A 5: @import \"home\";\A 6: @import \"about\";\A 7: @import \"header\";"; }
