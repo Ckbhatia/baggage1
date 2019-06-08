@@ -113,4 +113,23 @@
     width: 100%;
     height: auto;
 }
-//dds
+@media all and (max-width: 768px){
+    .features-section .wrapper{
+        grid-template-columns: 1fr;
+    }
+    .banner2-section{
+        grid-template-columns: 1fr;
+    }
+    .buy-section-collection{
+        grid-template-columns: 1fr;
+    }
+    .offer-section{
+        grid-template-columns: 1fr;
+    }
+    .trending-product-container{
+        grid-template-columns: 1fr;
+    }
+    .trending-section .wrapper{
+        grid-template-columns: 1fr;
+    }
+}

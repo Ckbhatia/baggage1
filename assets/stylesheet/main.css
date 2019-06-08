@@ -296,4 +296,58 @@ p {
   height: auto;
 }
 
+@media all and (max-width: 768px) {
+  .features-section .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .banner2-section {
+    grid-template-columns: 1fr;
+  }
+
+  .buy-section-collection {
+    grid-template-columns: 1fr;
+  }
+
+  .offer-section {
+    grid-template-columns: 1fr;
+  }
+
+  .trending-product-container {
+    grid-template-columns: 1fr;
+  }
+
+  .trending-section .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+.about-us-section .wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-heading {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  color: #4c4d4e;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05rem;
+}
+
+.baggage-img {
+  width: 100%;
+  padding: 3rem 1rem 0 1rem;
+}
+
+@media all and (max-width: 768px) {
+  .about-us-section > .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-us-section .flex-column-center-start {
+    align-items: center;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
