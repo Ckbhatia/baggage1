@@ -7,14 +7,14 @@
 
 // Main header
 .main-header-container {
-    background-color: $primary; 
+    background-color: #8bb4df;
     padding: 3rem 0 4rem 3rem;
 }
 .upper-container {
     border-bottom: 1px solid #8bb4df;
 }
 .logo-link {
-    color: $secondaryDark;
+    color: rgb(117, 117, 117);
     font: {
         size: 2.3rem;
         weight: 300;
@@ -26,7 +26,7 @@
             size: 3rem;
             weight: 700;
         }
-        color: $primaryWhite;
+        color: #fff;
         text-shadow: 3px 1px 3px rgba(19, 18, 18, 0.19);
     }
 }
@@ -45,12 +45,12 @@
 
 .header-icon {
     font-size: 1.2rem;
-    color: $primaryWhite;
+    color: #fff;
     margin-right: 0.5rem;
 }
 .sign-in-link, .sign-up-link {
     font-size: 1.05rem;
-    color: $textDark;
+    color: $text_color_secondary;
     padding: 1rem 1rem;
     text-decoration: none;
     margin-top: 0.6rem;
@@ -73,18 +73,18 @@
     // margin-right: 2.5rem;
     text-transform: uppercase;
     .header-list-link {
-        color: $textDark;
+        color: rgb(116, 116, 116);
         text-decoration: none;
         .active {
-            color: $accent;
+            color: $secondary_color;
         }
         .dropdown-icon {
             font-size: 0.7rem;
-            color: $primaryWhite;
+            color: #fff;
             padding: 0 0.5rem;
         }
         &:hover {
-            color: $accent;
+            color: $secondary_color;
         }
     }
 }
@@ -97,7 +97,7 @@
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: $primaryWhite;
+  background-color: #fff;
   z-index: 1;
 }
 
@@ -108,20 +108,20 @@
   display: block;
 }
 
-.dropdown-content a:hover {color: $accent;}
+.dropdown-content a:hover {color: $secondary_color;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {color: $accent;} 
+.dropdown:hover .dropbtn {color: $secondary_color;} 
 
 
 .form-control {
-    background-color: $primaryWhite;
+    background-color: #fff;
     padding: 0;
     // padding: 1rem 6rem 1rem 1rem;
     .nav-search-input {
         font-size: 0.9rem; 
-        color: $text;
+        color: $text_color_secondary;
         letter-spacing: 2px;
         padding: 1rem 6rem 1rem 1rem;
         border: 0;
@@ -129,11 +129,11 @@
     .nav-search-btn {
         padding: 0.6rem 1.2rem;
         margin-right: 0.5rem;
-        background-color: $secondary;
+        background-color: $text_color_secondary;
         border: none;
         border-radius: 0.3rem;
         .search-icon {
-            color: $primaryWhite;
+            color: #fff;
         }
     }
 }
