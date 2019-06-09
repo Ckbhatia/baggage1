@@ -20,10 +20,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 2rem 0 1rem 0;
+    padding: 1.5rem 0 1rem 0;
     text-align: center;
 
     .product-name{
+        font-size: 1rem;
         font-weight: 600;
         text-transform: uppercase;
         color: $dark_black;
@@ -44,6 +45,16 @@
             font-weight: 300;
             color: $text_color_teritiary;
             text-decoration: line-through;
+        }
+    }
+    .rating{
+        display: flex;
+        justify-content: center;
+        margin: 0.5rem 0 1rem 0;
+        li{
+            color: $text_color_secondary;
+            font-size: 0.6rem;
+            margin: 0 0.25rem;
         }
     }
 }
