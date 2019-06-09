@@ -1,0 +1,126 @@
+
+.contact-heading {
+    color: #000;
+    font: {
+        size: 2.55rem;
+        weight: 600;
+    }
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    margin: 5rem 0 3rem 0;
+}
+
+.contact-content-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+
+.contact-form-container {
+    padding: 3rem;
+    border: 1px solid rgba(131, 131, 131, 0.2);
+    background-color: white;
+    border-radius: 0.05rem;
+    .form-container {
+        .user-input {
+            font: {
+                size: 1.2rem;
+                weight: 300;
+            }
+            text-transform: capitalize;
+            letter-spacing: 0.05rem;
+            color: #888;
+            background-color: rgba(0, 123, 255, 0.06);
+            padding: 1.2rem 16rem 1.2rem 1rem;
+            margin: 0.7rem 0;
+            border: 0;
+        }
+        .message {
+            padding: 1.2rem 16rem 1.2rem 1rem;
+        }
+        .form-submit-btn {
+            font: {
+                size: 1.2rem;
+                weight: 300;
+            }
+            letter-spacing: 0.07rem;
+            color: #fff;
+            background-color: #ec1c24;
+            padding: 1rem 13rem;
+            border: 0;
+            text-transform: uppercase;
+        }
+    }
+}
+.map-container {
+    background-color: white;
+    padding: 2rem;
+    border: 1px solid rgba(131, 131, 131, 0.2);
+    .map {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.contact-info-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2rem 0;
+    margin: 2rem 0;
+}
+.contact-info-item {
+    margin: 1rem;
+    padding: 1rem;
+    .info-icon {
+        font-size: 1.4rem;
+        float: left;
+        margin-top: 0.3rem;
+    }
+}
+    .contact-info-heading {
+        font: {
+            size: 1.4rem;
+            weight: 700;
+        }
+        letter-spacing: 0.1rem;
+        text-transform: uppercase;
+        margin-left: 1.8rem;
+    }
+    .contact-info-text {
+        color: #777;
+        font: {
+            size: 1rem;
+            weight: 400;
+        }
+        letter-spacing: 0.05rem;
+        line-height: 1.7rem;
+        text-transform: capitalize;
+        margin: 1rem 0;
+    }
+
+    .contact-info-text {
+        color: #777;
+    }
+    .contact-info-text2, .contact-info-link {
+        color: #ec1c24;
+        font: {
+            size: 1rem;
+            weight: 500;
+        }
+        text-decoration: none;
+        .contact-info-special {
+            color: #777;
+        }
+    }
+
+
+
+@media all and (max-width: 768px) {
+    .contact-content-container {
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .contact-info-container {
+        grid-template-columns: 1fr;
+    }
+}

@@ -14,7 +14,100 @@
     </head>
     <body>
         <!-- Header -->
+        <header class="main-header-container">
+            <div class="header-container wrapper flex-center">
+                <!-- Upper -->
+                <div class="upper-container flex-between">
+                    <div class="upper-child1">
+                        <a  class="logo-link" href="#"><span class="logo-special">B</span>aggage</a>
+                        <label for="logo" class="logo-label">Online store</label>
+                    </div>
+                    <div class="upper-child2">
+                        <a href="#" class="sign-in-link">
+                            <i class="far fa-user-circle header-icon"></i><span class="sign-in-special">Sign In</span>
+                        </a>
+                        <a href="#" class="sign-up-link">
+                            <i class="fas fa-pen-square header-icon"></i><span class="sign-up-special">Sign Up</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- Down -->
+                <div class="down-container flex-between">
+                    <nav class="nav-container">
+                        <ul class="header-list-container flex">
+                            <li class="header-list-item"><a href="/index.html" class="header-list-link active">Home</a></li>
+                            <li class="header-list-item"><a href="/about.html" class="header-list-link">About us</a></li>
+                            <li class="header-list-item dropdown"><a href="/" class="header-list-link dropdown dropbtn">Dropdown<i class="fas fa-chevron-down dropdown-icon"></i></a>
+                                <ul class="dropdown-menu dropdown-content">
+                                    <li class="dropdown-list">
+                                        <a href="#" class="drowpdown-link">Services</a>
+                                    </li>
+                                    <li class="dropdown-list">
+                                        <a href="#" class="drowpdown-link">Features</a>
+                                    </li>
+                                    <li class="dropdown-list">
+                                        <a href="#" class="drowpdown-link">Single page</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="header-list-item"><a href="/coming.html" class="header-list-link">collections</a></li>
+                            <li class="header-list-item"><a href="/contact.html" class="header-list-link">contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="nav-search-bar">
+                        <form action="/#" class="form-control">
+                            <input type="text" class="nav-search-input" placeholder="Search Here..."> 
+                            <button class="nav-search-btn" type="submit"><i class="fa fa-search search-icon"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
         <!-- Main -->
+        <section class="contact-section">
+            <div class="contact-container wrapper">
+                <h2 class="contact-heading text-center">Contact us</h2>
+                <div class="contact-content-container">
+                    <div class="contact-form-container text-center">
+                        <form action="mailto:" class="form-container">
+                            <input class="user-input" type="name" placeholder="User name">
+                            <input class="user-input" type="email" placeholder="User email">
+                            <input class="user-input" type="phone" placeholder="User phone">
+                            <input class="user-input" type="password" placeholder="User password">
+                            <textarea class="user-input message" name="user message"  rows="4" placeholder="Your Message Here"></textarea>
+                            <button class="form-submit-btn">submit</button>
+                        </form>
+                    </div>
+                    <div class="map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=" 
+                            class="map"
+                            frameborder="0" 
+                            style="border:0" 
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="contact-info-container center-child">
+                    <div class="contact-info-item">
+                        <span class="fa fa-comments info-icon"></span>
+                        <h4 class="contact-info-heading">Communication</h4>
+                        <p class="contact-info-text">for general queries, including property Sales and constructions, please email us at </p>
+                        <a class="contact-info-link" href="mailto:info@example.com"><span class="contact-info-special">Us at </span>info@example.com</a>
+                    </div>
+                    <div class="contact-info-item">
+                        <span class="fa fa-life-ring info-icon"></span>
+                        <h4 class="contact-info-heading">Technical Support</h4>
+                        <p class="contact-info-text">we are ready to help! if you have any queries or issues, contact us for</p>
+                        <p class="contact-info-text2"><span class="contact-info-special">Support</span> +12 388 455 6789.</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <span class="fa fa-map info-icon"></span>
+                        <h4 class="contact-info-heading">Others</h4>
+                        <p class="contact-info-text">we are ready to help! if you have any queries or issues, contact us for</p>
+                        <p class="contact-info-text2"><span class="contact-info-special">Support</span> +12 388 455 6789.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Footer -->
     </body>
 </html>

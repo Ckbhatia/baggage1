@@ -326,7 +326,7 @@ html {
    word-spacing: 0.3rem;
    line-height: 2.5;
  }
- @media all and screen (max-width:768px){
+ @media all and (max-width:768px){
      .media {
          text-align: center;
      }
