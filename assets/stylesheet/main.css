@@ -297,6 +297,10 @@ p {
 }
 
 @media all and (max-width: 768px) {
+  .hero-section .wrapper {
+    grid-template-columns: 1fr;
+  }
+
   .features-section .wrapper {
     grid-template-columns: 1fr;
   }
@@ -348,6 +352,26 @@ p {
   .about-us-section .flex-column-center-start {
     align-items: center;
   }
+}
+.shop-section {
+  padding: 4rem 1rem;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.product {
+  background: #f7f7f7;
+}
+
+.product-img-container {
+  padding: 1rem;
+}
+
+.product-img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
