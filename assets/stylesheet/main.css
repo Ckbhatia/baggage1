@@ -1124,4 +1124,103 @@ p {
   width: 100%;
 }
 
+.login-page .lock {
+  font-size: 3rem;
+  padding: 2.5rem 0;
+  color: #888;
+}
+.login-page .center {
+  text-align: center;
+}
+.login-page .form {
+  font-size: 16px;
+  font-weight: 300;
+  color: #888;
+  letter-spacing: 1px;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  background: rgba(0, 123, 255, 0.06);
+  margin-bottom: 20px;
+  padding: 15px 35px;
+  border-radius: 0px;
+}
+.login-page .margin {
+  margin-left: 31.6rem;
+}
+.login-page .color {
+  background: red;
+  color: white;
+  text-transform: uppercase;
+}
+.login-page .btn {
+  height: 1rem;
+  width: 2rem;
+  border-radius: 35%;
+  border: none;
+}
+.login-page .login {
+  text-transform: capitalize;
+  color: #888;
+}
+.login-page .account {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: black;
+  word-spacing: 0.3rem;
+  line-height: 2.5;
+}
+
+.register-page .lock {
+  font-size: 3rem;
+  color: #888;
+  padding: 3rem 0;
+}
+.register-page .center {
+  text-align: center;
+}
+.register-page .form {
+  font-size: 16px;
+  font-weight: 300;
+  color: #888;
+  letter-spacing: 1px;
+  border: none;
+  box-sizing: border-box;
+  outline: none;
+  background: rgba(0, 123, 255, 0.06);
+  margin-bottom: 20px;
+  padding: 15px 35px;
+  border-radius: 0px;
+}
+.register-page .margin {
+  margin-left: 31.6rem;
+}
+.register-page .color {
+  background: red;
+  color: white;
+  text-transform: uppercase;
+}
+.register-page .btn {
+  height: 1rem;
+  width: 2rem;
+  border-radius: 35%;
+}
+.register-page .login {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 0.8rem;
+  word-spacing: 0.3rem;
+}
+.register-page .account {
+  text-transform: uppercase;
+  color: black;
+  word-spacing: 0.3rem;
+  line-height: 2.5;
+}
+@media all and (max-width: 768px) {
+  .register-page .media {
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
