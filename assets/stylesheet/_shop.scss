@@ -86,3 +86,18 @@
         }
     }
 }
+@media all and (max-width: 992px){
+    .products-container{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+}
+@media all and (max-width: 768px){
+    .products-container{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
+@media all and (max-width: 400px){
+    .products-container{
+        grid-template-columns: repeat(1 , 1fr);
+    }
+}
