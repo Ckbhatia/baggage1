@@ -1,0 +1,147 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+html{
+    font-size: 18px;
+    font-family: 'Hind', sans-serif;
+}
+.parent {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+.head {
+	font-size: 1.5rem;
+	padding-top: 2rem;
+}
+.span {
+	display: inline-block;
+	color: #62676b;
+	font-size: 1.5rem;
+	line-height: 1.4;
+	padding-top: 1rem;
+}
+.click {
+	font-size: 1rem;
+    color: #62676b;
+    line-height: 1.5em;
+	font-weight: 400;
+	padding-left: 0.6rem;
+}
+.span2 {
+
+	text-decoration: line-through;
+	font-size: 1rem;
+}
+.input{
+	text-transform: capitalize;
+	padding:1rem 2rem;
+    color: #495057;
+    border-radius: 0.25rem;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+	letter-spacing: 2px;
+	box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.btn {
+	margin-top: 0.7rem;
+	text-align: center;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	background: lightblue;
+	padding: 0.9rem 2rem;
+	color:white;
+	text-transform: capitalize;
+	font-size:1rem;
+}
+.login {
+	text-transform: capitalize;
+	text-decoration: underline;
+	padding-top: 1.5rem;
+	color: #555555;
+	font-size: 0.8rem;
+}
+.para {
+	font-size: 0.9rem;
+	color: #495057;
+	padding-top: 1.5rem;
+	line-height: 1.5;
+}
+.share {
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	padding-top: 3rem;
+	color: #495057;
+}
+.facebook {
+	color: black;
+	text-transform: capitalize;
+}
+.anchor {
+	padding-left: 1rem;
+	text-decoration-line: none;
+}
+.icon {
+	padding-top: 1rem;
+}
+.main {
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+.para2 {
+	color: lightblue;
+	font-size: 0.9rem;
+	padding-top: 1.5rem;
+	line-height: 1.5;
+	font-style: italic;
+}
+.wraper {
+	max-width: 1200px;
+	margin: 0 auto;
+	width: 100%;
+}
