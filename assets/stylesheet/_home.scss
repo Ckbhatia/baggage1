@@ -114,6 +114,9 @@
     height: auto;
 }
 @media all and (max-width: 768px){
+    .hero-section .wrapper{
+        grid-template-columns: 1fr;
+    }
     .features-section .wrapper{
         grid-template-columns: 1fr;
     }

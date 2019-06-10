@@ -26,7 +26,9 @@ body {
     max-width: 100%;
     height: auto;
 }
-.btn{
+.btn.btn-primary{
+    height: auto;
+    width: auto;
     display: inline-block;
     margin: 1rem 0;
     font-size: 1rem;
