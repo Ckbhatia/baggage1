@@ -1029,5 +1029,99 @@ p {
     grid-template-columns: 1fr;
   }
 }
+.single-page .parent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.single-page .head {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+.single-page .span {
+  display: inline-block;
+  color: #62676b;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  padding-top: 1rem;
+}
+.single-page .click {
+  font-size: 1rem;
+  color: #62676b;
+  line-height: 1.5em;
+  font-weight: 400;
+  padding-left: 0.6rem;
+}
+.single-page .span2 {
+  text-decoration: line-through;
+  font-size: 1rem;
+}
+.single-page .input {
+  text-transform: capitalize;
+  padding: 1rem 2rem;
+  color: #495057;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+  border: none;
+  outline: none;
+  letter-spacing: 2px;
+  box-shadow: 1px 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.single-page .btn {
+  margin-top: 0.7rem;
+  text-align: center;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  background: lightblue;
+  padding: 0.9rem 2rem;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+.single-page .login {
+  text-transform: capitalize;
+  text-decoration: underline;
+  padding-top: 1.5rem;
+  color: #555555;
+  font-size: 0.8rem;
+}
+.single-page .para {
+  font-size: 0.9rem;
+  color: #495057;
+  padding-top: 1.5rem;
+  line-height: 1.5;
+}
+.single-page .share {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  padding-top: 3rem;
+  color: #495057;
+}
+.single-page .facebook {
+  color: black;
+  text-transform: capitalize;
+}
+.single-page .anchor {
+  padding-left: 1rem;
+  text-decoration-line: none;
+}
+.single-page .icon {
+  padding-top: 1rem;
+}
+.single-page .main {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.single-page .para2 {
+  color: lightblue;
+  font-size: 0.9rem;
+  padding-top: 1.5rem;
+  line-height: 1.5;
+  font-style: italic;
+}
+.single-page .wraper {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
 
 /*# sourceMappingURL=main.css.map */
