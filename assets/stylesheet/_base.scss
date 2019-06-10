@@ -84,33 +84,8 @@ html {
     display: block;
     max-width: 100%;
     height: auto;
-  }
-  
-  // Primary Buttons  styles
-  .btn {
-    border-radius: 30px;
-    padding: 1.1rem 2.2rem;
-    text-align: center;
-    cursor: pointer;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-  }
-  
-  .btn-primary {
-    background: $primary_color;
-    color: #fff;
-    font-weight: 500;
-  }
-  .btn-secondary {
-    border: 2px solid $primary_color;
-    font-weight: 700;
-    color: $secondary_light;
-    transition: all 200ms ease-in-out;
-    &:hover {
-      background: $primary_color;
-      color: #fff;
-    }
-  }
+}
+
   
   // Center Elemets within its parent
   .center-child {
@@ -149,18 +124,18 @@ html {
   }
   @media all and (max-width: 992px) {
     html {
-      font-size: 12px;
+      font-size: 14px;
     }
   }
   
   @media all and (max-width: 768px) {
     html {
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 
   @media all and (max-width: 600px) {
     html {
-      font-size: 8px;
+      font-size: 10px;
     }
   }

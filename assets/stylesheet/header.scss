@@ -1,22 +1,15 @@
-// Wrapper 
-.wrapper {
-    max-width: 1100px;
-    width: 100%;
-    margin: 0 auto;
-}
-
 // Main header
 .main-header-container {
     background-color: $primary_color;
     padding: 3rem 0 4rem 3rem;
 }
 .upper-container {
-    border-bottom: 1px solid $primary_color;
+    border-bottom: 1px solid #8bb4df;
 }
 .logo-link {
-    color: rgb(117, 117, 117);
+    color: #333;
     font: {
-        size: 2.3rem;
+        size: 1.7rem;
         weight: 300;
     }
     padding: 2px 0;
@@ -33,7 +26,7 @@
 .logo-label {
     display: block;
     font: {
-        size: 0.8rem;
+        size: 0.7rem;
         weight: 600;
     }    
     letter-spacing: 4px;
@@ -65,7 +58,7 @@
 }
 .header-list-item {
     font: {
-        size: 1rem;
+        size: 0.8rem;
         weight: 400;
     }
     letter-spacing: 2px;
@@ -73,7 +66,7 @@
     // margin-right: 2.5rem;
     text-transform: uppercase;
     .header-list-link {
-        color: rgb(116, 116, 116);
+        color: #515152;
         text-decoration: none;
         .active {
             color: $secondary_color;
@@ -123,13 +116,13 @@
         font-size: 0.9rem; 
         color: $text_color_secondary;
         letter-spacing: 2px;
-        padding: 1rem 6rem 1rem 1rem;
+        padding: 1rem 0 1rem 1rem;
         border: 0;
     }
     .nav-search-btn {
-        padding: 0.6rem 1.2rem;
+        padding:0.6rem 0.8rem;
         margin-right: 0.5rem;
-        background-color: #ec1c24;
+        background-color: $secondary_color;
         border: none;
         border-radius: 0.3rem;
         .search-icon {
@@ -137,142 +130,7 @@
         }
     }
 }
-// Wrapper 
-.wrapper {
-    max-width: 1100px;
-    width: 100%;
-    margin: 0 auto;
-}
 
-// Main header
-.main-header-container {
-    background-color: $primary_color;
-    padding: 3rem 0 4rem 3rem;
-}
-.upper-container {
-    border-bottom: 1px solid $primary_color;
-}
-.logo-link {
-    color: rgb(117, 117, 117);
-    font: {
-        size: 2.3rem;
-        weight: 300;
-    }
-    padding: 2px 0;
-    text-decoration: none;
-    .logo-special {
-        font: { 
-            size: 3rem;
-            weight: 700;
-        }
-        color: #fff;
-        text-shadow: 3px 1px 3px rgba(19, 18, 18, 0.19);
-    }
-}
-.logo-label {
-    display: block;
-    font: {
-        size: 0.8rem;
-        weight: 600;
-    }    
-    letter-spacing: 4px;
-    padding: 0.8rem 0;
-    color: #5b7a9a;
-    text-transform: uppercase;
-    text-shadow: 3px 1px 3px rgba(78, 73, 73, 0.21);
-}
-
-.header-icon {
-    font-size: 1.2rem;
-    color: #fff;
-    margin-right: 0.5rem;
-}
-.sign-in-link, .sign-up-link {
-    font-size: 1.05rem;
-    color: $text_color_secondary;
-    padding: 1rem 1rem;
-    text-decoration: none;
-    margin-top: 0.6rem;
-    letter-spacing: 1px;
-}
-
-.down-container {
-    margin: 1rem 0;
-}
-.header-list-container {
-    display: flex;
-}
-.header-list-item {
-    font: {
-        size: 1rem;
-        weight: 400;
-    }
-    letter-spacing: 2px;
-    margin: 0 1rem;
-    // margin-right: 2.5rem;
-    text-transform: uppercase;
-    .header-list-link {
-        color: rgb(116, 116, 116);
-        text-decoration: none;
-        .active {
-            color: $secondary_color;
-        }
-        .dropdown-icon {
-            font-size: 0.7rem;
-            color: #fff;
-            padding: 0 0.5rem;
-        }
-        &:hover {
-            color: $secondary_color;
-        }
-    }
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  color: black;
-  padding: 0.6rem 6rem 0.6rem 2rem;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {color: $secondary_color;}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {color: $secondary_color;} 
-
-
-.form-control {
-    background-color: #fff;
-    padding: 0;
-    // padding: 1rem 6rem 1rem 1rem;
-    .nav-search-input {
-        font-size: 0.9rem; 
-        color: $text_color_secondary;
-        letter-spacing: 2px;
-        padding: 1rem 6rem 1rem 1rem;
-        border: 0;
-    }
-    .nav-search-btn {
-        padding: 0.6rem 1.2rem;
-        margin-right: 0.5rem;
-        background-color: $text_color_secondary;
-        border: none;
-        border-radius: 0.3rem;
-        .search-icon {
-            color: #fff;
-        }
-    }
+.nav-search-input:focus  {
+    border: 1px solid #dc3545;
 }
