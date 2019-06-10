@@ -58,3 +58,31 @@
         }
     }
 }
+// Pagination Links
+.pagination{
+    .pagination-link-list{
+        margin: 3rem 0 0 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        .pagination-link{
+            font-weight: 400;
+            font-size: 0.9rem;
+            border: 1px solid #dddddd;
+            padding: 0.6rem 0.75rem;
+            text-transform: uppercase;
+            color: $textDark;
+            margin-right: 1rem;
+            cursor: pointer;
+            transition: color, background ease 0.2s;
+            -webkit-transition: color, background ease 0.2s;
+            -moz-transition: color, background ease 0.2s;
+            -ms-transition: color, background ease 0.2s;
+            -o-transition: color, background ease 0.2s;
+}
+        .pagination-link:hover{
+            background: #e9ecef;
+            color: #007bff;
+        }
+    }
+}
