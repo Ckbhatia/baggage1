@@ -1,54 +1,61 @@
 .register-page{
-    .lock{
-        font-size: 3rem;
-        color: #888;
-        padding: 3rem 0;
-      }
-      .center {
-        text-align: center;
-      }
-      .form {
-      font-size: 16px;
-      font-weight: 300;
-      color: #888;
-      letter-spacing: 1px;
-      border: none;
-      box-sizing: border-box;
-      outline: none;
-      background: rgba(0, 123, 255, 0.06);
-      margin-bottom: 20px;
-      padding: 15px 35px;
-      border-radius: 0px;
-    }
-    .margin {
-      margin-left: 31.6rem;
-    }
-    .color {
-      background: red;
-      color: white;
-      text-transform: uppercase;
-    }
-    .btn {
-      height:1rem;
-      width:2rem;
-      border-radius:35%;
-    }
-    .login {
-      text-transform:uppercase;
-      color:#333;
-      font-size:0.8rem;
-      word-spacing: 0.3rem;
+  .lock{
+    font-size: 3rem;
+    color: #888;
+    padding: 3rem 0;
+  }
+  .center {
+    text-align: center;
+  }
+  .form {
+   font-size: 16px;
+   font-weight: 300;
+   color: #888;
+   letter-spacing: 1px;
+   border: none;
+   box-sizing: border-box;
+   outline: none;
+   background: rgba(0, 123, 255, 0.06);
+   margin-bottom: 20px;
+   padding: 15px 35px;
+   border-radius: 0px;
+ }
+ .margin {
+   margin-left: 31.6rem;
+ }
+ .color {
+   background: red;
+   color: white;
+   text-transform: uppercase;
+   text-align: center;
+ }
+ .btn {
+   height:1rem;
+   width:2rem;
+   border-radius:35%;
+ }
+ .login {
+   text-transform:uppercase;
+   color:#333;
+   font-size:0.8rem;
+   word-spacing: 0.3rem;
+   line-height: 2rem;
+ }
+ .account {
+   text-transform:uppercase;
+   color:black;
+   word-spacing: 0.3rem;
+   line-height: 2.5;
+ }
+.buten {
+  background: red;
+  color: white;
+  padding: 1rem 7.2rem;
+  border: none;
+  text-transform: uppercase;
+}
+.class {
+  text-align: center;
+}
 
-    }
-    .account {
-      text-transform:uppercase;
-      color:black;
-      word-spacing: 0.3rem;
-      line-height: 2.5;
-    }
-    @media all and (max-width:768px){
-        .media {
-            text-align: center;
-        }
-    }
 }
