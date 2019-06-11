@@ -20,13 +20,12 @@
       padding: 15px 35px;
       border-radius: 0px;
     }
-    .margin {
-      margin-left: 31.6rem;
-    }
+
     .color {
       background: red;
       color: white;
       text-transform: uppercase;
+      text-align: center;
     }
     .btn {
       height:1rem;
@@ -37,6 +36,8 @@
     .login {
       text-transform:capitalize;
       color: #888;
+      line-height: 2rem;
+      padding-left: 0.2rem;
     }
     .account {
       font-size: 0.8rem;
@@ -44,5 +45,51 @@
       color:black;
       word-spacing: 0.3rem;
       line-height: 2.5;
+    }
+    .pading{
+        padding-left: 10.5rem;
+        text-align: center;
+    }
+    .buten {
+      padding: 0.9rem 6.8rem;
+      background: red;
+      color: white;
+      text-align: center;
+      border: none;
+      text-transform: uppercase;
+    }
+    .signup{
+      text-align: center;
+    }
+    .help {
+      color: #888;
+      padding-left: 1rem;
+    }
+    .dot {
+      position: absolute;
+      left: 0.15rem;
+      top: 0.15rem;
+      height: 0.7rem;
+      width: 0.7rem;
+      background-color: #333333;
+      border-radius: 50%;
+      display: inline-block;
+      transition: all ease-in 0.5s;
+    }
+    .btn-checkbox{
+      position: relative;
+      display: inline-block;
+      border-radius: 1rem;
+      height: 1rem;
+      width: 2rem;
+      background: lightgray;
+      transition: all ease-in 0.5s;
+    }
+    #keep_logged_in:checked ~ .dot{
+      right: 0.15rem;
+      left: unset;
+    }
+    .button_toggle{
+      display: none;
     }
 }
