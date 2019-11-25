@@ -1,5 +1,5 @@
 # Baggage
-It is a simple html and css based site.
+It is a simple html and css based site made for enhancing the layout designing skill.
 
 ## What I learnt?
 __I learnt these things.__
